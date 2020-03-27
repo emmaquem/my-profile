@@ -1,0 +1,105 @@
+/*Color and fonts */
+
+body {
+	background-color: #E3C9BF;
+	color: black;
+	font-family: 'Baloo 2', cursive;
+}
+
+h1{
+	color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 800;
+    letter-spacing: 0px;
+    font-size: 30px;
+
+}
+h2{
+	color: black;
+	font-size: 24px;
+	font-weight: lighter;
+	font-family: 'Abril Fatface', cursive;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+a:hover {
+	color: yellow;
+}
+
+#LOGO {
+	width: 200px
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	
+}
+
+.container {
+	text-align: center;
+	width: 900px;
+    margin: 40px auto;
+}
+
+.card-white {
+	margin: 50px;
+    padding: 60px;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0,0,0);
+    border-radius: 4px;
+}
+
+.btn-pink {
+	background-color: #E3C9BF;
+	color:black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #E3C9BF;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+@media (max-width: 760px) {
+	.card-white {
+		width: 500px;
+		background-color: grey;
+	}
+}
+
+@media (max-width: 500px) {
+	.card-white {
+		width: 300px;
+		background-color: grey;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
